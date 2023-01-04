@@ -1,8 +1,23 @@
 .about {
-   height: 100vh;
+   font-family: 'Sora', sans-serif;
+   height: 45rem;
    display: flex;
-   justify-content: center;
+   flex-direction: column;
+   justify-content: flex-start;
    align-items: center;
    background-color: var(--gray);
+   gap: 7.5rem;
+}
+.header {
+   color: var(--bright);
+   font-size: 3rem;
+   margin-top: 10rem;
+}
+
+.description {
+   color: var(--bright);
+   text-align: center;
+   width: 50rem;
+   max-width: 80%;
 }
 
