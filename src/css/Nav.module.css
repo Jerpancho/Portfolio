@@ -9,6 +9,7 @@
    top: 1%;
    left: 50%;
    transform: translate(-50%, 1%);
+   transition: all 250ms;
 }
 .list a {
    position: relative;
@@ -39,5 +40,12 @@
    list-style: none;
    display: flex;
    justify-content: space-evenly;
+   gap: 0.5rem;
+}
+
+@media (max-width: 45rem) {
+   .list {
+      flex-direction: column;
+   }
 }
 
