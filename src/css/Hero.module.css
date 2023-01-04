@@ -1,0 +1,30 @@
+.hero {
+   height: 100vh;
+   text-align: center;
+   font-family: 'Sora', sans-serif;
+   background: var(--dark);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.hero h1 {
+   font-size: 3.75rem;
+   color: var(--lighter);
+}
+
+.hero h2 {
+   font-size: 2rem;
+   color: var(--light);
+}
+.hero button {
+   font-family: 'Sora', sans-serif;
+   font-weight: 100;
+   font-size: 1.25rem;
+   padding: 0.825rem 2em;
+   border: none;
+   color: var(--dark);
+   background-color: var(--bg-color);
+   cursor: pointer;
+}
+
