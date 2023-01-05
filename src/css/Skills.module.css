@@ -1,4 +1,29 @@
 .skills {
-   background-color: #1d2a2a;
+   font-family: 'Sora', sans-serif;
+   height: 100vh;
+   background-color: var(--dark);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: Center;
+}
+
+.skills > div {
+   width: min(50rem, 85%);
+}
+
+.header {
+   color: var(--bright);
+   font-size: 3rem;
+}
+.headers {
+   margin-top: 2rem;
+   color: var(--lighter);
+   font-size: 1.5rem;
+}
+.list {
+   margin-top: 1.5rem;
+   display: flex;
+   justify-content: space-between;
 }
 
