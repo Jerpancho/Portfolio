@@ -4,7 +4,7 @@ import styles from '../css/About.module.css';
 
 const About = () => {
    return (
-      <div className={styles.about} id='about'>
+      <section className={styles.about} id='about'>
          <h1 className={styles.header}>About Me</h1>
          <p className={styles.description}>
             Highly passionate computer scientist who emphasizes in creating
@@ -18,7 +18,7 @@ const About = () => {
             junior level position that will utilize and nurture my skills in a
             professional environment.
          </p>
-      </div>
+      </section>
    );
 };
 
