@@ -57,7 +57,7 @@ const Projects = () => {
                   </p>
                   <ul className={styles.source}>
                      <li>
-                        live:&nbsp;
+                        src:&nbsp;
                         <a
                            href='https://github.com/Jerpancho/Bartender-Project'
                            target='_blank'
