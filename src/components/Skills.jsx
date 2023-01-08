@@ -14,7 +14,7 @@ import styles from '../css/Skills.module.css';
 const Skills = () => {
    return (
       <section className={styles.skills} id='skills'>
-         <h1 className={styles.header}>Skills</h1>
+         <h1 className={styles.header}>Skills and Proficiencies</h1>
          <div>
             <h3 className={styles.headers}>Languages</h3>
             <div className={styles.list}>

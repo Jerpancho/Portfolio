@@ -6,7 +6,7 @@
    justify-content: flex-start;
    align-items: center;
    background-color: var(--gray);
-   gap: 7.5rem;
+   gap: 5rem;
 }
 .header {
    color: var(--bright);
