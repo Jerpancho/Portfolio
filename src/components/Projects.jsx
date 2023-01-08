@@ -8,8 +8,34 @@ const Projects = () => {
             <li>
                <div className={styles.text}>
                   <h3>Valoguesser</h3>
-                  <p>this is a block of text</p>
-                  <p>for url</p>
+                  <p>
+                     A web game that teaches Valorant players map locations and
+                     callouts through a series of 5 rounds where players must
+                     locate an image on a map within a time limit and earn a
+                     higher score by being closer to the correct location.
+                  </p>
+                  <ul className={styles.source}>
+                     <li>
+                        live:&nbsp;
+                        <a
+                           href='https://valoguesser.netlify.com'
+                           target='_blank'
+                           rel='noreferrer'
+                        >
+                           https://valoguesser.netlify.com
+                        </a>
+                     </li>
+                     <li>
+                        src:&nbsp;
+                        <a
+                           href='https://github.com/Jerpancho/valoguesser-client'
+                           target='_blank'
+                           rel='noreferrer'
+                        >
+                           https://github.com/Jerpancho/valoguesser-client
+                        </a>
+                     </li>
+                  </ul>
                </div>
                <img
                   className={styles.image}
@@ -21,8 +47,26 @@ const Projects = () => {
             <li>
                <div className={styles.text}>
                   <h3>Bartender&rsquo;s companion</h3>
-                  <p>this is a block of text</p>
-                  <p>for url</p>
+                  <p>
+                     A mobile application built to be a bartender&rsquo;s best
+                     friend for learning and finding new cocktail recipes. The
+                     application includes several features such as a search
+                     filter, inventory to browse cocktails based on ingredients
+                     you own, and a dictionary for new bartenders to learn about
+                     the tools and terms of the craft.
+                  </p>
+                  <ul className={styles.source}>
+                     <li>
+                        live:&nbsp;
+                        <a
+                           href='https://github.com/Jerpancho/Bartender-Project'
+                           target='_blank'
+                           rel='noreferrer'
+                        >
+                           https://github.com/Jerpancho/Bartender-Project
+                        </a>
+                     </li>
+                  </ul>
                </div>
                <img
                   className={styles.image}

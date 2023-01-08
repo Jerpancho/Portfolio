@@ -13,6 +13,7 @@
 }
 
 .header {
+   text-align: center;
    color: var(--bright);
    font-size: 3rem;
 }
