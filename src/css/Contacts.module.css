@@ -1,0 +1,37 @@
+.contacts {
+   background-color: var(--dark);
+}
+.main {
+   width: min(45rem, 85%);
+   margin: 0 auto;
+}
+.form > form {
+   background-color: var(--bright);
+   border-radius: 20px;
+   display: flex;
+   flex-wrap: wrap;
+}
+.form > form > input,
+.form > form > textarea {
+   font-size: 1rem;
+   font-family: 'Sora', sans-serif;
+   border: none;
+   padding: 0.25rem 0.5rem;
+}
+.form > form > input {
+   flex: 1;
+   margin: 0.75rem 0.5rem 0 0.5rem;
+   border-radius: 5px;
+}
+
+.form > form > textarea {
+   margin: 1rem 0.5rem;
+   width: 100%;
+   border-radius: 5px;
+}
+.form > form > button {
+   padding: 0.5rem 2rem;
+   width: 50%;
+   margin: 0 auto;
+}
+
