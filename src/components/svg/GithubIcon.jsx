@@ -1,10 +1,11 @@
 import React from 'react';
 
-const GithubIcon = () => {
+// eslint-disable-next-line react/prop-types
+const GithubIcon = ({ width = '100px', height = '100px' }) => {
    return (
       <svg
-         width='100px'
-         height='100px'
+         width={width}
+         height={height}
          viewBox='0 0 48 48'
          fill='none'
          xmlns='http://www.w3.org/2000/svg'

@@ -15,6 +15,9 @@
    text-align: center;
    color: var(--bright);
    font-size: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .form > h2 > span {
@@ -50,11 +53,22 @@
    resize: none;
 }
 .form > form > button {
+   color: var(--lightest);
+   font-size: 1rem;
    padding: 0.5rem 2rem;
    width: 50%;
-   margin: 0.75rem auto;
+   margin: 0 auto 0.75rem auto;
    border: none;
    border-radius: 5px;
+   background-color: var(--light);
+   transition: background-color 150ms ease;
+}
+
+.form > form > button:hover {
    background-color: var(--lighter);
+}
+.form > form > button:active {
+   color: var(--light);
+   background-color: var(--lightest);
 }
 

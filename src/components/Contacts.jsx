@@ -1,4 +1,6 @@
 import React from 'react';
+import GithubIcon from './svg/GithubIcon';
+import LinkedInIcon from './svg/LinkedInIcon';
 import styles from '../css/Contacts.module.css';
 const Contacts = () => {
    return (
@@ -6,7 +8,24 @@ const Contacts = () => {
          <div className={styles.main}>
             <div className={styles.form}>
                <h2>
-                  Send Me A Message <span>github&nbsp;linkedin</span>
+                  Send Me A Message
+                  <span>
+                     <a
+                        href='https://github.com/Jerpancho'
+                        target='_blank'
+                        rel='noreferrer'
+                     >
+                        <GithubIcon width='50px' height='50px' />
+                     </a>
+                     &nbsp;
+                     <a
+                        href='https://www.linkedin.com/in/jerrold-pancho-b43666200/'
+                        target='_blank'
+                        rel='noreferrer'
+                     >
+                        <LinkedInIcon />
+                     </a>
+                  </span>
                </h2>
                <form
                   action='https://formsubmit.co/your@email.com'
