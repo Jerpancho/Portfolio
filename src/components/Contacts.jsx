@@ -5,7 +5,9 @@ const Contacts = () => {
       <section className={styles.contacts} id='contacts'>
          <div className={styles.main}>
             <div className={styles.form}>
-               <h2>Send Me A Message</h2>
+               <h2>
+                  Send Me A Message <span>github&nbsp;linkedin</span>
+               </h2>
                <form
                   action='https://formsubmit.co/your@email.com'
                   method='POST'

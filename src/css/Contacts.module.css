@@ -4,7 +4,24 @@
 .main {
    width: min(45rem, 85%);
    margin: 0 auto;
+   padding: 2rem 0;
 }
+
+.form > * {
+   margin-bottom: 1rem;
+}
+
+.form > h2 {
+   text-align: center;
+   color: var(--bright);
+   font-size: 2rem;
+}
+
+.form > h2 > span {
+   margin: 0 1rem;
+   font-size: 1rem;
+}
+
 .form > form {
    background-color: var(--bright);
    border-radius: 20px;
@@ -13,11 +30,13 @@
 }
 .form > form > input,
 .form > form > textarea {
+   color: white;
    font-size: 1rem;
-   font-family: 'Sora', sans-serif;
    border: none;
    padding: 0.25rem 0.5rem;
+   background-color: var(--lighter);
 }
+
 .form > form > input {
    flex: 1;
    margin: 0.75rem 0.5rem 0 0.5rem;
@@ -28,10 +47,14 @@
    margin: 1rem 0.5rem;
    width: 100%;
    border-radius: 5px;
+   resize: none;
 }
 .form > form > button {
    padding: 0.5rem 2rem;
    width: 50%;
-   margin: 0 auto;
+   margin: 0.75rem auto;
+   border: none;
+   border-radius: 5px;
+   background-color: var(--lighter);
 }
 
