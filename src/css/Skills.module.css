@@ -8,6 +8,11 @@
    align-items: Center;
 }
 
+@media (max-width: 60rem) {
+   .header {
+      margin-bottom: 2rem;
+   }
+}
 .skills > div {
    width: min(50rem, 85%);
 }

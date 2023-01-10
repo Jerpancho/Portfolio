@@ -44,6 +44,9 @@
 }
 
 @media (max-width: 45rem) {
+   .nav {
+      display: none;
+   }
    .list {
       flex-direction: column;
    }

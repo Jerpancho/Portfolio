@@ -3,17 +3,25 @@
    height: 45rem;
    display: flex;
    flex-direction: column;
-   justify-content: flex-start;
+   justify-content: center;
    align-items: center;
    background-color: var(--gray);
    gap: 5rem;
 }
+
+@media (max-width: 60rem) {
+   .about {
+      gap: 2rem;
+   }
+   .header {
+      margin-top: 5rem;
+   }
+}
+
 .header {
    color: var(--bright);
    font-size: 3rem;
-   margin-top: 10rem;
 }
-
 .description {
    color: var(--bright);
    text-align: center;
