@@ -1,7 +1,7 @@
 .hero {
    height: 100vh;
    text-align: center;
-   background: var(--dark);
+   background: var(--dark-no-background);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -15,5 +15,11 @@
 .hero h2 {
    font-size: 2rem;
    color: var(--light);
+}
+
+.hero h1,
+.hero h2 {
+   user-select: none;
+   -moz-user-select: none;
 }
 

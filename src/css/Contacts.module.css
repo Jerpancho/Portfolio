@@ -1,5 +1,5 @@
 .contacts {
-   background-color: var(--dark);
+   background-color: var(--dark-no-background);
 }
 .main {
    width: min(45rem, 85%);

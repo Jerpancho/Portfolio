@@ -1,7 +1,7 @@
 .skills {
    font-family: 'Sora', sans-serif;
    height: 100vh;
-   background-color: var(--dark);
+   background-color: var(--dark-no-background);
    display: flex;
    flex-direction: column;
    justify-content: center;

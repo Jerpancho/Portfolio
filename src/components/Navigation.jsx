@@ -34,7 +34,8 @@ const Navigation = () => {
             onClick={() => setToggle((prev) => !prev)}
             ref={toggleRef}
          >
-            <GiHamburgerMenu />
+            {/* icon */}
+            <GiHamburgerMenu style={{ color: '#b1ffff' }} />
          </div>
          <nav
             // adding visibility of the nav when toggled on

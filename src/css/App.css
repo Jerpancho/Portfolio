@@ -3,6 +3,7 @@
 :root {
    /* colors */
    --lightest: #b1ffff;
+   --dark-no-background: #1d2a2a00;
    --dark: #1d2a2a;
    --gray: #3b5555;
    --light: #598080;
