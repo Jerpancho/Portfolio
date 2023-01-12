@@ -28,7 +28,7 @@ const Contacts = () => {
                   </span>
                </h2>
                <form
-                  action='https://formsubmit.co/f0b7592137d51c59338dde5bfe6c84fd'
+                  action='https://formsubmit.co/panchojerrold@gmail.com'
                   method='POST'
                >
                   <input
