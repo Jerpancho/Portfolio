@@ -1,8 +1,32 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import GithubIcon from './svg/GithubIcon';
 import LinkedInIcon from './svg/LinkedInIcon';
 import styles from '../css/Contacts.module.css';
 const Contacts = () => {
+   const nameRef = useRef(null);
+   const emailRef = useRef(null);
+   const messageRef = useRef(null);
+   const url = 'https://formsubmit.co/f0b7592137d51c59338dde5bfe6c84fd';
+
+   const handleSubmit = (e) => {
+      e.preventDefault();
+      fetch(url, {
+         method: 'POST',
+         headers: { 'Content-Type': 'application/json' },
+         body: JSON.stringify({
+            name: nameRef.current.value,
+            email: emailRef.current.value,
+            message: messageRef.current.value,
+         }),
+      })
+         .then((res) => res.json())
+         .then((data) => {
+            console.log(data);
+         })
+         .catch((err) => {
+            console.log(err);
+         });
+   };
    return (
       <section className={styles.contacts} id='contacts'>
          <div className={styles.main}>
@@ -27,23 +51,23 @@ const Contacts = () => {
                      </a>
                   </span>
                </h2>
-               <form
-                  action='https://formsubmit.co/f0b7592137d51c59338dde5bfe6c84fd'
-                  method='POST'
-               >
+               <form method='POST' onSubmit={handleSubmit}>
                   <input
+                     ref={nameRef}
                      type='text'
                      name='name'
                      placeholder='Full Name'
                      required
                   />
                   <input
+                     ref={emailRef}
                      type='email'
                      name='email'
                      placeholder='Email'
                      required
                   />
                   <textarea
+                     ref={messageRef}
                      name='message'
                      placeholder='Write your message here'
                      rows='15'
