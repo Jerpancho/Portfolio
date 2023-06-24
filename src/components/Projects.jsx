@@ -16,16 +16,6 @@ const Projects = () => {
                   </p>
                   <ul className={styles.source}>
                      <li>
-                        live:&nbsp;
-                        <a
-                           href='https://valoguesser.netlify.com'
-                           target='_blank'
-                           rel='noreferrer'
-                        >
-                           https://valoguesser.netlify.com
-                        </a>
-                     </li>
-                     <li>
                         src:&nbsp;
                         <a
                            href='https://github.com/Jerpancho/valoguesser-client'
